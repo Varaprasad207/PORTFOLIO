@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio Website - Work Experience</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/r.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Add your custom CSS here */
+        body {
+            font-family: 'Rubik', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: #77b300 3px solid;
+        }
+
+        header a.logo {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header .navbar {
+            list-style: none;
+            display: flex;
+        }
+
+        header .navbar li {
+            margin: 0 10px;
+        }
+
+        header .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        header .navbar a:hover,
+        header .navbar a.active {
+            color: #77b300;
+        }
+
+        .work-experience {
+            padding: 40px 10%;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        .experience-container {
+            margin-bottom: 30px;
+        }
+
+        .experience-title {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .experience-subtitle {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #77b300;
+        }
+
+        .location {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .experience-description {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .experience-description strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><span>Prasad</span></a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workexperience.html" class="active">Work Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contactinformation.html">Contact</a></li>
+        </ul>
+    </header>
+    <section class="work-experience">
+            <div class="experience-container">
+            <h2 class="experience-title">Front-End Developer</h2>
+            <h4 class="experience-subtitle">Wipro Limited (Dec 2021 – July 2023)</h4>
+            <h4 class="location">Bengaluru, Karnataka</h4>
+            <p class="experience-description">
+                <strong> Project: IJP (Internal Job Portal) </strong> 	         Dec 2021 – May 2022<br>
+            <strong>Responsibilities:</strong>
+•	Developed a web application enabling employees to create and update profiles, improving employee self-service adoption by 25%. <br>
+•	Built responsive UI components using AngularJS, HTML, CSS, JavaScript, reducing page load time by 30%. <br>
+•	Integrated REST APIs to display real-time employee data, improving data accuracy and consistency. <br>
+•	Enhanced accessibility & SEO, increasing usability scores by 20%. <br>
+•	Collaborated with QA team, reducing post-release bugs by 15%.
+            </div>
+            <div class="experience-container">
+            <!-- <h2 class="experience-title">Data Engineer</h2>
+            <h4 class="experience-subtitle">Vtrix Technologies (Aug 1 – Aug 26, 2024)</h4>
+            <h4 class="location">Texas, USA</h4> -->
+            <p class="experience-description">
+                <strong>Project: PSP (Personnel Staffing Page)	 </strong>        Jun 2022 – Nov 2022 <br>
+            <strong>Responsibilities:</strong>
+    •	Developed modules for tracking trainings, billings, contacts, and tenure, adopted by 5,000+ employees. <br>
+•	Optimized application performance, reducing average load time from 3s to 1.8s. <br>
+•	Ensured cross-browser compatibility and mobile responsiveness across 6+ major platforms. <br>
+•	Implemented role-based access control, securing sensitive employee data and reducing unauthorized access risks by 40%. <br>
+•	Participated in sprint planning and code reviews, improving delivery efficiency by 15%.
+            </p>
+            </div>
+        <div class="experience-container">
+            <!-- <h2 class="experience-title">Web Developer and IT Support Specialist</h2>
+            <h4 class="experience-subtitle">YSU WorkForce (May 2023 - May 2024)</h4>
+            <h4 class="location">Youngstown, OH 44503</h4> -->
+            <p class="experience-description">
+                <strong>Project: IFP (Integrated Fulfillment Portal)	</strong>       Dec 2022 – Mar 2023 <br>
+                <strong>Responsibilities</strong>
+•	Designed and developed features for project and deliverable management, used by multiple business units. <br>
+•	Streamlined workflows with reusable UI components, reducing development effort by 20%. <br>
+•	Integrated REST APIs for dynamic project updates, improving update latency by 35%. <br>
+•	Documented workflows, created user manuals, and supported smooth knowledge transfer for new teams. <br>
+•	Partnered with cross-functional teams, ensuring on-time delivery for 100% of sprints.
+            </p>
+        </div>
+        <div class="experience-container">
+            <!-- <h2 class="experience-title">Associate Software Engineer</h2>
+            <h4 class="experience-subtitle">Calyx (Aug 2022 - Dec 2022) </h4>
+            <h4 class="location">Hyderabad, Telangana 500081</h4> -->
+            <p class="experience-description">
+                <strong>Project: MySkillZ (Rebranded from TrendNXT)	</strong>      Apr 2023 – Jul 2023 <br>
+                <strong>Responsibilities</strong>
+•	Assisted in rebranding and redesign, boosting platform recognition and engagement by 30%. <br>
+•	Built features for certification tracking and skill mapping, helping employees monitor progress more efficiently. <br>
+•	Enhanced UI/UX navigation and mobile optimization for Android & iOS, increasing mobile adoption by 20%. <br>
+•	Integrated with internal HR systems for seamless data sync, reducing manual data entry by 50%. <br>
+•	Conducted A/B testing on redesigned features, improving user satisfaction scores by 15%, and ensured WCAG compliance.
+            </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
